@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+        <ListView
+            android:id="@+id/fruit_listview"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/header_textview"
+            android:layout_margin="@dimen/view_left_right_padding"
+            android:divider="@color/divider_color"
+            android:smoothScrollbar="true"
+            android:layout_weight="1"></ListView>
+
+
+        <Button
+            android:id="@+id/btnAnalisa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ANALISA"
+            />
+
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">CariUntung</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string-array name="jenis_lokasi">
+        <item>Bangunan dijual</item>
+        <item>Bangunan Disewa</item>
+        <item>Tanah Kosong</item>
+    </string-array>
+
+    <string-array name="kategori">
+        <item>Japanese Food</item>
+        <item>Fast Food</item>
+        <item>Kafe Food</item>
+    </string-array>
+
+    <string-array name="harga">
+        <item>kurang dari 2.500.000.000</item>
+        <item>2.500.000.001-8.000.000.000</item>
+        <item>lebih dari 8.000.000.000</item>
+    </string-array>
+
+    <string-array name="luastanah">
+        <item>kurang dari 60m2</item>
+        <item>61m2-100m2</item>
+        <item>lebih dari 100m2</item>
+    </string-array>
+
+    <string-array name="luasbangunan">
+        <item>100m2</item>
+        <item>101m2-200m2</item>
+        <item>lebih dari 200m2</item>
+    </string-array>
+
+    <string name="list_lokasi">Lokasi List</string>
+    <string name="no_message_list_found">"Maaf tidak ada lokasi dalam list !!!"</string>
+    <string name="nama_lokasi">"Nama Lokasi: "</string>
+    <string name="item_click">"On Item Click Nama Lokasi: "</string>
+    <string name="is_checked">" is Checked."</string>
+    <string name="is_unchecked">" is Unchecked."</string>
+</resources>

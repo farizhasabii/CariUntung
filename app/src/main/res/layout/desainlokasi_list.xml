@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="vertical"
+    android:padding="5dip" >
+
+
+
+        
+		<ImageView
+			android:layout_gravity="center"
+			android:id="@+id/list_imagelkp"   
+	        android:layout_width="50dip"
+	        android:layout_height="50dip"
+	        android:src="@drawable/kota"/>
+        
+
+    
+
+
+    <TextView
+		android:textAlignment="center"
+		android:layout_gravity="center"
+        android:id="@+id/txtNamalkp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="From zero to hero"
+        android:textColor="#FF0000"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+
+
+    <TextView
+		android:gravity="center"
+        android:id="@+id/txtDeskripsilkp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNamalkp"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Just gona stand there and ..."
+        android:textColor="#343434"
+        android:textSize="10dip"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:id="@+id/kode_k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/txtNamalkp"
+        android:layout_marginRight="5dip"
+        android:gravity="right"
+        android:text="5:45"
+        android:textColor="#000"
+        android:textSize="10dip"
+        android:textStyle="bold"
+		android:visibility="gone" />
+      
+
+
+</LinearLayout>

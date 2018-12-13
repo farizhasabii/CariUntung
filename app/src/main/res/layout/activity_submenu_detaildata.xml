@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5fb0c9"
+    app:columnCount="2"
+    app:orientation="vertical"
+    app:rowCount="2"
+    tools:context="com.example.fariz.cariuntung.submenu_detaildata">
+
+    <FrameLayout
+        android:background="#5F9EA0"
+        android:clickable="true"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/btn_arsip"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/arsip" />
+
+            <TextView
+                android:id="@+id/txt_arsip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_arsip"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Arsip Penilaian"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:clickable="true"
+        android:background="#D2691E"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/btn_gedung"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/kota" />
+
+            <TextView
+                android:id="@+id/txt_bangunan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_gedung"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Detail Bangunan"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </FrameLayout>
+
+
+</android.support.v7.widget.GridLayout>
